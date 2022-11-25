@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Banner from '../components/banner';
+import Card from '../components/card';
 
 
 export default function Home() {
@@ -13,6 +14,10 @@ export default function Home() {
 
       <main className="">
         <Banner/>
+        <Card
+        name = "Indian coffee" 
+        imgUrl = "coffee.png"
+        href = "/coffee-store/Indian-coffee"/>
       </main>
 
       <footer className="">
