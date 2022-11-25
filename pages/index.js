@@ -11,7 +11,7 @@ export default function Home() {
         <script src="https://cdn.tailwindcss.com"></script>
       </Head>
 
-      <main className="py-96 pl-64">
+      <main className="">
         <Banner/>
       </main>
 
